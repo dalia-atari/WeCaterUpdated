@@ -9,15 +9,24 @@
 
     <LinearLayout
         android:id="@+id/Section3"
-        android:layout_width="325dp"
-        android:layout_height="161dp"
+        android:layout_width="285dp"
+        android:layout_height="130dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintHorizontal_bias="0.73"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947">
+        app:layout_constraintVertical_bias="0.953">
+
+        <TextView
+            android:id="@+id/option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/onion55"
@@ -55,28 +64,28 @@
         android:id="@+id/option10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dessert"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="  Dessert"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#2C8BA0"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.704" />
+        app:layout_constraintVertical_bias="0.739" />
 
     <LinearLayout
         android:id="@+id/Section1"
-        android:layout_width="325dp"
-        android:layout_height="161dp"
+        android:layout_width="290dp"
+        android:layout_height="154dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.143">
+        app:layout_constraintVertical_bias="0.114">
 
         <TextView
             android:id="@+id/onion88"
@@ -123,8 +132,8 @@
         android:id="@+id/option7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Main Course"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="  Main Course"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#2C8BA0"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -132,7 +141,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.37" />
+        app:layout_constraintVertical_bias="0.357" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -150,8 +159,8 @@
             android:id="@+id/option1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Appetizers"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="  Appetizers"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#2C8BA0"
             android:textSize="34sp" />
 
@@ -159,15 +168,15 @@
 
     <LinearLayout
         android:id="@+id/Section2"
-        android:layout_width="325dp"
-        android:layout_height="161dp"
+        android:layout_width="298dp"
+        android:layout_height="154dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.564">
+        app:layout_constraintVertical_bias="0.58">
 
         <TextView
             android:id="@+id/onion"
